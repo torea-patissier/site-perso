@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+/* Scrool smooth */
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    position: fixed;
+    z-index: 12;
+}
+
+body {
+    font-family: 'Lora', serif;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+}
+
+a{
+    color: black;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.containerParallax{
+    transform:translateY(-5%);
+}
+
+.nav-wrapper{
+    color: white;
+    margin: 0;
+}
+
+nav{
+    height: 100px;
+    margin-right: 50cm;    
+}
+
+.navli{
+    font-size: x-large;
+    margin-right: 20px;
+    color:black;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.carousel{
+    height: 400px;
+}
+
+.scroll-container {
+    display: block;
+    width: 350px;
+    height: 200px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+  }
+.scroll-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 5em;
+  }
+
+/* ImageMobile */
+
+  .imageRondeMobile{
+    width : 250px; height : 250px;
+    border: none;
+    -moz-border-radius : 150px;
+    -webkit-border-radius : 150px;
+    border-radius : 150px;
+  }
+
+footer{
+    transform: translate(0%, 10%);
+}
+
+.gitHubLink:hover, .linkedInLink:hover, .mailLink:hover{
+    transform: scale(1.1);
+}
+
+/* Animation Nom Prénom */
+.ml5 {
+    position: relative;
+    font-weight: 300;
+    font-size: 4.5em;
+    color: black;
+  }
+  
+  .ml5 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.1em;
+    padding-right: 0.05em;
+    padding-bottom: 0.15em;
+    line-height: 1em;
+  }
+  
+  .ml5 .line {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 3px;
+    width: 100%;
+    background-color: black;
+    transform-origin: 0.5 0;
+  }
+  
+  .ml5 .ampersand {
+    font-family: Baskerville, serif;
+    font-style: italic;
+    font-weight: 400;
+    width: 1em;
+    margin-right: -0.1em;
+    margin-left: -0.1em;
+  }
+  
+  .ml5 .letters {
+    display: inline-block;
+    opacity: 0;
+  }
+
